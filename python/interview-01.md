@@ -1,5 +1,3 @@
-### Basics Python Questions
-
 #### Q.1 Difference between == and "is"
 ```bash
 ==  operator helps us compare the equality of objects
