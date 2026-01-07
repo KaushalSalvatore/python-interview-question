@@ -55,14 +55,18 @@ readable and helping to reduce the amount of code written by avoiding repetition
 
 #### Q-8 open and open with in python ?
 ```bash
-To use the open function, you declare a variable for it first. The open() function takes up to 3 parameters – the filename, the mode, and the encoding. You can then specify what you want to do with the file in a print function.
-That’s not all. The open() function does not close the file, so you also have to close the file with the close() method.
+To use the open function, you declare a variable for it first. The open() function takes up to 3 
+parameters – the filename, the mode, and the encoding. You can then specify what you want to do 
+with the file in a print function.
+That’s not all. The open() function does not close the file, so you also have to close the file with the
+close() method.
 
 my_file = open("hello.txt", "r")
 print(my_file.read())
 my_file.close()
 
-Unlike open() where you have to close the file with the close() method, the with statement closes the file for you without you telling it to.
+Unlike open() where you have to close the file with the close() method, the with statement closes 
+the file for you without you telling it to.
 This is because the with statement calls 2 built-in methods behind the scene – __enter()__ and __exit()__.
 The __exit()__ method closes the file when the operation you specify is done.
 
@@ -82,7 +86,8 @@ print(dict(x))
 
 #### Q-10 what is Closuer function in python ?
 ```bash
-Python closure is a nested function that allows us to access variables of the outer function even after the outer function is closed.
+Python closure is a nested function that allows us to access variables of the outer function even after the
+outer function is closed.
 
 def greet(name):
     # inner function
@@ -127,7 +132,8 @@ Python multiprocessing
 
 1. It is a technique where multiple processes run across multiple cores at the same time.
 2. Each program has its own interpreter that executes different processes at the same time.
-3.Multiple processes actually run parallelly as the multiprocessing module streamlines the independent processes by using sub-processes.
+3.Multiple processes actually run parallelly as the multiprocessing module streamlines the independent 
+processes by using sub-processes.
 4.Python multiprocessing implements parallelism.
 ```
 

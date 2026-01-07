@@ -82,7 +82,8 @@ and methods of the class in Python. It binds the attributes with the given argum
 
 #### Q.9 What are negative indexes and why are they used?
 ```bash
-Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, strings, etc. Negative indexing retrieves elements from the end by providing negative numbers as sequence indexes.
+Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, strings, 
+etc. Negative indexing retrieves elements from the end by providing negative numbers as sequence indexes.
 ```
 
 #### Q.10. What is the difference between a module and a package in python ?
@@ -94,7 +95,8 @@ organized in a directory hierarchy
 #### Q.11.	When to use the assert keyword in python? What does it do
 ```bash
 The assert keyword is used when debugging code.The assert keyword lets you test if a condition in your 
-code returns True, if not, the program will raise an AssertionError.You can write a message to be written if the code returns False.
+code returns True, if not, the program will raise an AssertionError.You can write a message to be written 
+if the code returns False.
 ```
 
 #### Q-12 what is difference between multi proccessing and multi thrading 

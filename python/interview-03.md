@@ -10,7 +10,10 @@ JSON
 
 #### Q-2 Is Python a compiled language or an interpreted language?
 ```bash
-Actually, Python is a partially compiled language and partially interpreted language. The compilation part is done first when we execute our code and this will generate byte code internally this byte code gets converted by the Python virtual machine(p.v.m) according to the underlying platform(machine+operating system).    
+Actually, Python is a partially compiled language and partially interpreted language. The compilation 
+part is done first when we execute our code and this will generate byte code internally this byte 
+code gets converted by the Python virtual machine(p.v.m) according to the underlying 
+platform(machine+operating system).    
 ```
 
 #### Q-3 What are Access Specifiers in Python?
@@ -139,9 +142,14 @@ if __name__ == '__main__':
     myFunction = outerFunction('Hey!') 
     myFunction() 
 
-closures in Python help to invoke functions outside their scope. The function innerFunction has its scope only inside the outerFunction. But with the use of Python closures, we can easily extend its scope to invoke a function outside its scope.
+closures in Python help to invoke functions outside their scope. The function innerFunction has its scope 
+only inside the outerFunction. But with the use of Python closures, we can easily extend its scope to 
+invoke a function outside its scope.
 
-We may have variables in the global scope that are not used by many functions at times. Instead of defining variables in global scope, consider using a closure. They can be defined in the outer function and used in the inner function. Python Closures are also useful for avoiding the use of a global scope.
+We may have variables in the global scope that are not used by many functions at times. Instead of 
+defining variables in global scope, consider using a closure. They can be defined in the outer 
+function and used in the inner function. Python Closures are also useful for avoiding the use of 
+a global scope.
 
 ```
 
@@ -177,7 +185,8 @@ which represents the memory address of the object.
 
 #### Q-17 can we change the order of dictionary in python ? 
 ```bash
-No, the contents of a dictionary cannot be sorted in place like that of a list. However, we can indirectly sort the keys and values of a dictionary by using sorted() function: sorted(dictionary. keys())
+No, the contents of a dictionary cannot be sorted in place like that of a list. However, we can 
+indirectly sort the keys and values of a dictionary by using sorted() function: sorted(dictionary. keys())
 ```
 
 #### Q-18 can we change the key in dictionary python ? 

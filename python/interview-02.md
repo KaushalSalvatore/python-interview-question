@@ -230,8 +230,7 @@ New Dictionary functions Merge(|) and Update(|=)
 New String Methods to Remove Prefixes and Suffixes
 ```
 
-#### Q-18 What is functional programming? Does Python follow a functional programming style? If yes, 
-#### list a few methods to implement functionally oriented programming in Python.
+#### Q-18 What is functional programming? Does Python follow a functional programming style? If yes,  list a few methods to implement functionally oriented programming in Python.
 ```bash 
 Functional programming is a coding style where the main source of logic in a program comes from functions.
 
@@ -240,7 +239,9 @@ Incorporating functional programming in our codes means writing pure functions.
 
 #### Q-19 What do NumPy and SciPy have in common ?
 ```bash
-SciPy stands for Scientific Python, while NumPy stands for Numerical Python. NumPy is the basic library for defining arrays and solving elementary mathematical issues, whereas SciPy is used for more sophisticated problems like numerical integration, optimization, and machine learning. 
+SciPy stands for Scientific Python, while NumPy stands for Numerical Python. NumPy is the basic library 
+for defining arrays and solving elementary mathematical issues, whereas SciPy is used for more
+sophisticated problems like numerical integration, optimization, and machine learning. 
 ```
 
 #### Q-20 How to use Map, Filter and Reduce Function in Python?
